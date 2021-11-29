@@ -21,14 +21,14 @@ function Header() {
         <a>
           <img src="/images/original-icon.svg" />
           <span>ORIGNALS</span>
-          <a>
-            <img src="/images/movie-icon.svg" />
-            <span>MOVIES</span>
-          </a>
-          <a>
-            <img src="/images/series-icon.svg" />
-            <span>SERIES</span>
-          </a>
+        </a>
+        <a>
+          <img src="/images/movie-icon.svg" />
+          <span>MOVIES</span>
+        </a>
+        <a>
+          <img src="/images/series-icon.svg" />
+          <span>SERIES</span>
         </a>
       </NavMenu>
       <UserImg src="/images/userimg.PNG" />
@@ -44,6 +44,7 @@ const Nav = styled.div`
   display: flex;
   align-items: center;
   padding: 0 36px;
+  overflow-x: hidden;
 `;
 
 const Logo = styled.img`
